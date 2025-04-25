@@ -6,6 +6,10 @@ A RESTful API built with Django and Django REST Framework to manage a list of pe
 
 ---
 
+## 📁 Documentation
+
+https://documenter.getpostman.com/view/36791092/2sB2izDYVn
+
 ## 📁 Project Structure
 
 ```
