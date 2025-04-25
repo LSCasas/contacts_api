@@ -14,3 +14,25 @@ class ContactViewSet(viewsets.ModelViewSet):
             serializer (Serializer): Validated serializer.
         """
         serializer.save(user=self.request.user)
+
+    def get_queryset(self):
+        """
+        Returns contacts belonging to the current user.
+        """
+        return models.Contact.objects.filter(user=self.request.user)
+
+    def perform_update(self, serializer):
+        """Updates an object with the current user as the owner.
+
+        Args:
+            serializer (Serializer): Validated serializer.
+        """
+        serializer.save(user=self.request.user)
+
+    def perform_destroy(self, instance):
+        """Deletes the given object instance.
+
+        Args:
+            instance (Model): The object to delete.
+        """
+        instance.delete()
