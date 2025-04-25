@@ -102,8 +102,8 @@ contacts_api/
    Content-Type: application/json
 
    {
-     "username": "admin",
-     "password": "admin123"
+     "username": "test",
+     "password": "test123"
    }
    ```
 
