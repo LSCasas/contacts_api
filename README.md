@@ -6,11 +6,11 @@ A RESTful API built with Django and Django REST Framework to manage a list of pe
 
 ---
 
-## 📁 Documentation
+##  Documentation
 
 https://documenter.getpostman.com/view/36791092/2sB2izDYVn
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 contacts_api/
@@ -37,7 +37,7 @@ contacts_api/
 
 ---
 
-## 🔐 Features
+##  Features
 
 - User registration and authentication with JWT tokens (`/api/token/`)
 - Full CRUD for personal contacts
@@ -59,7 +59,7 @@ contacts_api/
 
 ---
 
-## 🚀 How to Use This Project
+##  How to Use This Project
 
 1. Clone the repository:
 
@@ -97,7 +97,7 @@ contacts_api/
 
 ---
 
-## 🧪 Authentication Example
+##  Authentication Example
 
 1. Request the token:
 
@@ -120,7 +120,7 @@ contacts_api/
 
 ---
 
-## 📌 Requirements
+##  Requirements
 
 - Python 3.8+
 - pip
